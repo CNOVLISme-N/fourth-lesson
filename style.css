@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.text{
+    width: 80%;
+    margin: auto;
+
+    line-height: 1.5;
+
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    font-weight: 100;
+
+    columns: 4;
+    column-gap: 50px;
+}
+.wrapper{
+    width: 50vw;
+    border: 5px solid dodgerblue;
+}
+.box{
+    width: 50%;
+    height: 50vh;
+    background: red;
+}
+.html{
+    font-size: 20px;
+}
+.container{ 
+    font-size: 30px;
+}
+.title{
+    /* 1 rem - 16 px - html dan meros oladi  */
+    /* 1 em - 16 px - parentdan meros oladi */
+    font-size: 2rem;
+    margin-top: 1em;
+}
